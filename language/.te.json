@@ -1,0 +1,201 @@
+{
+  "semantics": [
+    {
+      "label": "పుస్తకం కవర్ పేజీ ఎనేబుల్ చెయ్యి",
+      "description": "A cover that shows info regarding the book before access"
+    },
+    {
+      "label": "కవర్ పేజీ",
+      "fields": [
+        {
+          "label": "కవర్ పేజీ వివరణ",
+          "description": "ఇక్కడి టెక్స్ట్ మీ పుస్తకం యొక్క వివరణగా కనబడుతుంది."
+        },
+        {
+          "label": "ముఖ చిత్రం  / కవర్ పేజీపై బొమ్మ",
+          "description": "పరిచయం కోసం ఐచ్ఛిక నేపథ్య చిత్రం."
+        },
+        {
+          "label": "ప్రత్యామ్నాయ టెక్స్ట్",
+          "description": "కవర్ పేజీ బొమ్మ కై ప్రత్యామ్నాయ టెక్స్ట్"
+        }
+      ]
+    },
+    {
+      "label": "పేజీలు",
+      "entity": "పేజీ",
+      "widgets": [
+        {
+          "label": "డిఫాల్ట్"
+        }
+      ],
+      "field": {
+        "label": "ఐటమ్",
+        "fields": [
+          {
+            "label": "పేజీ"
+          }
+        ]
+      }
+    },
+    {
+      "label": "బిహేవియరల్ సెట్టింగ్స్",
+      "fields": [
+        {
+          "label": "డిఫాల్ట్‌గా విషయసూచిక ప్రదర్శించు",
+          "description": "ఇది ఎనేబుల్ చేస్తే  డిఫాల్ట్ గా పుస్తకం ఓపెన్ చేసినపుడు విషయసూచిక పట్టిక కనబడుతుంది."
+        },
+        {
+          "label": "ప్రోగ్రెస్ సూచికలను ప్రదర్శించు",
+          "description": "ఇది ఎనేబుల్ చేస్తే యూజర్ పేజీని పూర్తి చేసినా చేయకపోయినా చూపే ప్రతి పేజీకి సూచికలు ఉంటాయి."
+        },
+        {
+          "label": "ఆటోమేటిక్ ప్రోగ్రెస్ ను ఎనేబుల్ చెయ్యి",
+          "description": " ఇది ఎనేబుల్ చేస్తే అన్ని టాస్క్ లు పూర్తయినప్పుడు టాస్క్‌లతో కూడిన పేజీ  పూర్తయ్యినట్లు లేదా టాస్క్‌లు లేని పేజీని చూసినప్పుడు పూర్తయినట్లు పరిగణించబడుతుంది.  డిసేబుల్ చేసినట్లయితే పేజీని పూర్తి చేసినప్పుడు యూజర్ క్లిక్ చేయడానికి ప్రతి పేజీ దిగువన ఒక బటన్ ఉంటుంది"
+        },
+        {
+          "label": "సారాంశం ప్రదర్శించు",
+          "description": "ఇది ఎనేబుల్ చేస్తే యూజర్ సారాంశం చూసుకుని తన ప్రోగ్రెస్ / జవాబులు సబ్ మిట్ చేయగలరు"
+        }
+      ]
+    },
+    {
+      "label": "Translation for \"చదువు\"",
+      "default": "చదువు"
+    },
+    {
+      "label": "Translation for \"'విషయ సూచిక'  ప్రదర్శించు \"",
+      "default": "'విషయ సూచిక'  ప్రదర్శించు"
+    },
+    {
+      "label": "Translation for \"'విషయ సూచిక'  హైడ్ చెయ్యి \"",
+      "default": "'విషయ సూచిక'  హైడ్ చెయ్యి "
+    },
+    {
+      "label": "Translation for \"తర్వాతి పేజీ \"",
+      "default": "తర్వాతి పేజీ"
+    },
+    {
+      "label": "Translation for \"వెనుకకు \"",
+      "default": "వెనుకకు"
+    },
+    {
+      "label": "Translation for \"పేజీ పూర్తయ్యింది!\"",
+      "default": "పేజీ పూర్తయ్యింది!"
+    },
+    {
+      "label": "Translation for \"@pages of @total completed\" (@pages and @total will be replaced by actual values)",
+      "default": "@pages of @total completed"
+    },
+    {
+      "label": "Translation for \"అసంపూర్తిగా ఉన్న పేజీ\"",
+      "default": "అసంపూర్తిగా ఉన్న పేజీ"
+    },
+    {
+      "label": "Translation for \"పైకి నావిగేట్ చేయండి\"",
+      "default": "పైకి నావిగేట్ చేయండి"
+    },
+    {
+      "label": "Translation for \"ఈ పేజీ పూర్తి చేసాను\"",
+      "default": "ఈ పేజీ పూర్తి చేసాను"
+    },
+    {
+      "label": "పూర్తి స్క్రీన్ బటన్ లేబుల్",
+      "default": "పూర్తి స్క్రీన్"
+    },
+    {
+      "label": "పూర్తి స్క్రీన్ బటన్ లేబుల్  నుంచి వైదొలుగు",
+      "default": "పూర్తి స్క్రీన్ నుంచి వైదొలుగు"
+    },
+    {
+      "label": "పుస్తకంలోని పేజీల ప్రోగ్రెస్ ",
+      "description": "\"@count\" will be replaced by page count, and \"@total\" with the total number of pages",
+      "default": "@count of @total pages"
+    },
+    {
+      "label": "Interaction progress",
+      "description": "\"@count\" will be replaced by interaction count, and \"@total\" with the total number of interactions",
+      "default": "@count of @total interactions"
+    },
+    {
+      "label": "Translation for \"నివేదిక సమర్పించు\"",
+      "default": "నివేదిక  సమర్పించు"
+    },
+    {
+      "label": "Label for \"పునఃప్రారంభించు \" బటన్",
+      "default": "పునఃప్రారంభించు"
+    },
+    {
+      "label": "సారాంశం హెడర్",
+      "default": "సారాంశం"
+    },
+    {
+      "label": "Translation for \"అన్ని ఇంటరాక్షన్లు\"",
+      "default": "అన్ని ఇంటరాక్షన్లు"
+    },
+    {
+      "label": "Translation for \"సమాధానం ఇవ్వని ఇంటరాక్షన్లు\"",
+      "default": "సమాధానం ఇవ్వని ఇంటరాక్షన్లు"
+    },
+    {
+      "label": "Score",
+      "description": "\"@score\" will be replaced with current score, and \"@maxscore\" will be replaced with max achievable score",
+      "default": "@score / @maxscore"
+    },
+    {
+      "label": "ఒక్కో పేజీలో పూర్తయిన ఇంటరాక్షన్",
+      "description": "\"@left\" will be replaced with remaining interactions, and \"@max\" will be replaced with total number of interactions on the page",
+      "default": "@left of @max interactions completed"
+    },
+    {
+      "label": "Translation for \"ఇంటరాక్షన్స్ లేవు\"",
+      "default": "ఇంటరాక్షన్స్ లేవు"
+    },
+    {
+      "label": "Translation for \"స్కోర్\"",
+      "default": "స్కోర్"
+    },
+    {
+      "label": "Label for \"సారాంశం &amp; సబ్ మిట్\" బటన్",
+      "default": "Summary &amp; submit"
+    },
+    {
+      "label": "Translation for \"మీరు ఏ ఒక్క పేజీ చూడలేదు.\"",
+      "default": "మీరు ఏ ఒక్క పేజీ చూడలేదు, ఇంటరాక్ట్ అవ్వలేదు ."
+    },
+    {
+      "label": "Translation for \"You have to interact with at least one page before you can see the summary.\"",
+      "default": "సారాంశం చూడాలంటే కనీసం ఒక్క పేజీతోనైనా ఇంటరాక్ట్ అవ్వాలి."
+    },
+    {
+      "label": "Translation for \"మీ సమాధానాలు రివ్యూకై సబ్ మిట్ చేయబడ్డాయి!\"",
+      "default": "మీ సమాధానాలు రివ్యూకై సబ్ మిట్ చేయబడ్డాయి!"
+    },
+    {
+      "label": "సారాంశం ప్రోగ్రెస్ లేబుల్",
+      "default": "పుస్తకం ప్రోగ్రెస్"
+    },
+    {
+      "label": "ఇంటరాక్షన్ ప్రోగ్రెస్ లేబుల్",
+      "default": "ఇంటరాక్షన్ ప్రోగ్రెస్"
+    },
+    {
+      "label": "మొత్తం స్కోరు లేబుల్",
+      "default": "మొత్తం స్కోరు "
+    },
+    {
+      "label": "Accessibility texts",
+      "fields": [
+        {
+          "label": "Page progress textual alternative",
+          "description": "An alternative text for the visual page progress. @page and @total variables available.",
+          "default": "Page @page of @total."
+        },
+        {
+          "label": "  నావిగేషన మెను విస్తరణ లేదా ముడుచుకునుటకై లేబుల్ ",
+          "default": "నావిగేషన్ మెనుని టోగిల్  చెయ్యి "
+        }
+      ]
+    }
+  ]
+}
